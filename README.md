@@ -54,12 +54,7 @@ Un fichier d’inventaire a été défini pour préciser :
 - l’utilisateur
 - son mot de passe initial
 
-Exemple :
-
-```ini
-[web]
-webserver ansible_host=192.168.159.X ansible_user=user ansible_password=motdepasse
-```
+![ansible6](ressource/ansible6.png)
 
 ---
 
