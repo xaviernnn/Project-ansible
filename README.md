@@ -103,7 +103,7 @@ Exemple simplifié :
 Commande :
 
 ```bash
-ansible-playbook site.yml
+ansible-playbook playbook.yml -i inventory.yml
 ```
 
 Chaque étape s’affiche clairement lors de l’exécution.
