@@ -123,11 +123,12 @@ Le site HTML est ensuite devenu **dynamique** :
 Exécution avec variables :
 
 ```bash
-ansible-playbook site.yml -e @vars.yml
+ansible-playbook playbook.yml -i inventory.yml -e @vars.yml
 ```
 
 Le site est généré automatiquement selon les valeurs définies.
 
+![ansible12](ressource/ansible12.png)
 ---
 
 # ✅ Résumé Final
