@@ -139,3 +139,5 @@ Le site est généré automatiquement selon les valeurs définies.
 - Variables centralisées dans `vars.yml`  
 - Déploiement automatisé en **une seule commande**
 
+
+![ansible15](ansible15.png)
