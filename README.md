@@ -108,6 +108,8 @@ ansible-playbook playbook.yml -i inventory.yml
 
 Chaque étape s’affiche clairement lors de l’exécution.
 
+![ansible9](ressource/ansible9)
+
 ---
 
 # 🔧 Passage à un Template Jinja2
