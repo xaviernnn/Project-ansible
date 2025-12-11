@@ -42,7 +42,7 @@ Réseau utilisé : **host-only → 192.168.159.0**
 # 🌐 Site HTML à déployer
 
 Le fichier `index.html` a été généré et sera déployé automatiquement sur la machine cible.
-
+!(img)[ressource/ansible5.png]
 ---
 
 # 📁 Inventaire Ansible
