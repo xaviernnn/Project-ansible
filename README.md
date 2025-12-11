@@ -70,32 +70,30 @@ Le playbook réalise les actions suivantes :
 Exemple simplifié :
 
 ```yaml
-- name: Déploiement Nginx et site web
-  hosts: web
-  become: yes
-
+- name: Install and configure Nginx
+  hosts: webservers
+  
   tasks:
-    - name: Installer Nginx
-      apt:
-        name: nginx
-        state: present
-
-    - name: S'assurer que Nginx est actif
+    - name : installation nginx
+      apt :
+        name : nginx
+        state : present
+    - name: Ensure Nginx is running
       service:
         name: nginx
         state: started
+        enabled: yes
 
-    - name: Déployer le site HTML
+    - name: Deploy custom homepage
       copy:
         src: index.html
         dest: /var/www/html/index.html
-      notify: Redémarrer Nginx
-
+      notify: Restart nginx
   handlers:
-    - name: Redémarrer Nginx
-      service:
-        name: nginx
-        state: restarted
+  - name: Restart nginx
+    service:
+      name: nginx
+      state: restarted
 ```
 
 ---
