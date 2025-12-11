@@ -1,0 +1,17 @@
+owner_name: "Xavier Neveu"
+owner_initials: "XN"
+lead_text: "Je teste les variables Ansible"
+about_text: "J'aime bien Ansible"
+email: "xavier.neveu@example.com"
+phone: "+33 6 12 34 56 78"
+location: "France"
+skills:
+  - HTML
+  - CSS
+  - JavaScript
+  - Accessibilité
+  - SEO
+projects:
+  - title: "Déploiement de site avec Ansible"
+    description: "Déploiement d’un site basique, puis en mettant des variables"
+    tags: ["HTML", "Ansible", "Nginx"]

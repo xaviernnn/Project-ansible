@@ -1,0 +1,5 @@
+webservers:
+  hosts: 192.168.159.129
+  vars:
+    ansible_user: xavier
+    ansible_become: yes
