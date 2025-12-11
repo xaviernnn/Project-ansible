@@ -24,7 +24,10 @@ Réseau utilisé : **host-only → 192.168.159.0**
 
 # 🔐 Préparation SSH
 
-1. Génération d’une **clé SSH** sur le serveur  
+1. Génération d’une **clé SSH** sur le serveur
+    ```bash
+   ssh-keygen
+   ```
 2. Copie de la clé publique vers la target :  
    ```bash
    ssh-copy-id user@192.168.159.X
